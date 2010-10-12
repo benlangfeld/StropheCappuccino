@@ -1,6 +1,7 @@
 {
     "name": "StropheCappuccino",
     "author": "Antoine Mercadal",
+    "contributors": ["Ben Langfeld <ben@langfeld.me>"]
     "dependencies": ["cappuccino", "objective-j"],
     "description": "A mocking library for Objective-J that is inspired by the Moq project.",
     "keywords": ["objective-j", "cappuccino", "strophe", "XMPP", "Jabber", "BOSH"],

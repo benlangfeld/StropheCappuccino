@@ -19,3 +19,11 @@ Simply include the StropheCappuccino framework in your Frameworks directory and 
 To generate the documentation execute the following :
 
 	# doxygen StropheCappuccino.doxygen
+
+## Author
+Antoine Mercadal <antoine.mercadal@inframonde.eu>
+	project owner
+	lead developer
+
+## Contributors
+Ben Langfeld <http://langfeld.me>
