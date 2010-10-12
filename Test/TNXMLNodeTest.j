@@ -20,9 +20,9 @@
 @import <Foundation/Foundation.j>
 @import <AppKit/AppKit.j>
 
-@import "../Resources/Strophe/strophe.js"
-@import "../Resources/Strophe/sha1.js"
-@import "../TNXMLNode.j"
+@import "../Frameworks/StropheCappuccino/Resources/Strophe/strophe.js"
+@import "../Frameworks/StropheCappuccino/Resources/Strophe/sha1.js"
+@import "../Frameworks/StropheCappuccino/TNXMLNode.j"
 
 
 @implementation TNXMLNodeTest : OJTestCase

@@ -20,7 +20,7 @@
 
 var ENV = require("system").env,
     FILE = require("file"),
-	OS = require("os"),
+    OS = require("os"),
     task = require("jake").task,
     FileList = require("jake").FileList,
     app = require("cappuccino/jake").app,
@@ -37,8 +37,8 @@ app ("StropheCappuccino", function(task)
     task.setAuthor("Antoine Mercadal");
     task.setEmail("antoine.mercadal @nospam@ inframonde.eu");
     task.setSummary("StropheCappuccino");
-    task.setSources(new FileList("*.j", "StropheCappuccino/*.j"));
-    task.setResources(new FileList("Resources/*"));
+    task.setSources(new FileList("Framework/StropheCappuccino/*.j", "StropheCappuccino/*.j"));
+    task.setResources(new FileList("Framework/StropheCappuccino/Resources/*"));
     task.setInfoPlistPath("Info.plist");
 
     if (configuration === "Debug")
